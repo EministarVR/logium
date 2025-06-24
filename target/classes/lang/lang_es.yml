@@ -1,0 +1,53 @@
+# 🇪🇸 Archivo de idioma para Logium - Español
+
+prefix: "&8[&dLogium&8] "
+
+# 📋 Comandos
+no-permission: "&cNo tienes permiso para usar este comando."
+config-reloaded: "&aLa configuración se ha recargado exitosamente."
+current-webhook: "URL actual del webhook para &e%type%&7: &f%url%"
+webhook-set: "&a¡La URL del webhook para &e%type% &ase ha establecido!"
+
+usage-header: "&cUso:"
+usage-reload: "&7/logium reload"
+usage-setwebhook: "&7/logium <tipo-de-log> [nuevaURLWebhook]"
+
+# 🚀 Inicio de la consola
+console:
+  startup:
+    header: "Plugin Logium iniciado"
+    footer: "por EministarVR – mantente seguro"
+
+# 📤 Mensajes de logs
+ban:
+  title: "Jugador baneado"
+  content: "**%player%** ha sido baneado.\nRazón: `%reason%`"
+
+mute:
+  title: "Jugador silenciado"
+  content: "**%player%** ha sido silenciado.\nRazón: `%reason%`"
+
+chat:
+  title: "Mensaje de chat"
+  content: "**%player%**: %message%"
+
+death:
+  title: "Jugador muerto"
+  content: |
+    **Mundo**: `%world%`
+    **Coordenadas**: X=`%x%`, Y=`%y%`, Z=`%z%`
+    **Causa de muerte**: `%cause%`
+    **Inventario**:
+    %inventory%
+
+join:
+  title: "Jugador unido"
+  content: "El jugador **%player%** se ha unido al servidor."
+
+leave:
+  title: "Jugador salido"
+  content: "El jugador **%player%** ha salido del servidor."
+
+teleport:
+  title: "Jugador teleportado"
+  content: "Teleportado a `%world%` en **(%x%, %y%, %z%)**"

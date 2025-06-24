@@ -1,0 +1,15 @@
+name: Logium
+version: '${project.version}'
+main: dev.eministar.logium.Logium
+author: EministarVR
+description: A plugin that allows you to log your Minecraft server's console output to a file.
+api-version: '1.21'
+depend: [PlaceholderAPI, StarLibs]
+commands:
+  logium:
+    description: Hauptbefehl Logium
+    usage: /logium reload
+    permission: logium.command
+  logiumdebug:
+    description: Erstellt eine Debug-Logdatei für Logium
+    usage: /logiumdebug

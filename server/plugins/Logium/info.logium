@@ -1,0 +1,132 @@
+═══════════════════════════════════════════════════════
+               LOGIUM DEBUG-DATEI
+═══════════════════════════════════════════════════════
+Zeitpunkt:              2025-06-20 00:40:04
+Plugin-Version:         1.5.7
+Sprache:                de
+Server-Name:            Paper
+
+═════════════ SERVER-INFORMATIONEN ════════════════════
+Bukkit-Version:         1.21.1-R0.1-SNAPSHOT
+Minecraft-Version:      1.21.1-132-b48403b (MC: 1.21.1)
+IP:                     
+Port:                   25565
+Online-Modus:           true
+Max-Players:            20
+Aktuelle Spieler:       1
+
+═════════════ SYSTEM-INFORMATIONEN ════════════════════
+Betriebssystem:         Windows 11 10.0
+Architektur:            amd64
+Kerne (logisch):        12
+RAM gesamt (MB):        876
+RAM frei (MB):          280
+RAM max (MB):           7956
+Uptime (Minuten):       4
+JVM Arguments:          -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8
+Host-Name:              Eminis-PC
+Host-IP:                192.168.178.22
+
+═════════════ SPEICHERINFORMATIONEN ═══════════════════
+Heap Usage:             init = 524288000(512000K) used = 620086944(605553K) committed = 918552576(897024K) max = 8342470656(8146944K)
+Non-Heap Usage:         init = 7667712(7488K) used = 219551896(214406K) committed = 231538688(226112K) max = -1(-1K)
+
+═════════════ THREAD-INFORMATIONEN ════════════════════
+Aktive Threads:         48
+Daemon Threads:         30
+Peak Threads:           51
+Total Started Threads:  78
+
+═════════════ GELADENE PLUGINS ════════════════════════
+- PlaceholderAPI v2.11.6 [aktiv]
+- StarLibs v1.0 [aktiv]
+- Logium v1.5.7 [aktiv]
+
+═════════════ AKTUELLE CONFIGURATION ══════════════════
+language: en
+logs: MemorySection[path='logs', root='YamlConfiguration']
+logs.join-leave: MemorySection[path='logs.join-leave', root='YamlConfiguration']
+logs.join-leave.enabled: true
+logs.join-leave.simplified-message: false
+logs.join-leave.webhook: https://discord.com/api/webhooks/1365140778325639220/dK7CgfjjSXl3T8z6n8n0CUskaEez8Nv18dYN071VFrnavmoamSWguWjKCDZuGQ6_CO7T
+logs.chat: MemorySection[path='logs.chat', root='YamlConfiguration']
+logs.chat.enabled: true
+logs.chat.simplified-message: true
+logs.chat.webhook: https://discord.com/api/webhooks/1385388595304599612/VbDPtO4bfJlcDyWQTFaeVbnplszhOemY361sQm8rDTXvWFZjfTLUQlQ2fd20yYAlI7d_
+logs.teleport: MemorySection[path='logs.teleport', root='YamlConfiguration']
+logs.teleport.enabled: false
+logs.teleport.simplified-message: true
+logs.teleport.webhook: https://discord.com/api/webhooks/1365140778325639220/dK7CgfjjSXl3T8z6n8n0CUskaEez8Nv18dYN071VFrnavmoamSWguWjKCDZuGQ6_CO7T
+logs.ban: MemorySection[path='logs.ban', root='YamlConfiguration']
+logs.ban.enabled: false
+logs.ban.simplified-message: false
+logs.ban.webhook: https://discord.com/api/webhooks/BAN
+logs.mute: MemorySection[path='logs.mute', root='YamlConfiguration']
+logs.mute.enabled: false
+logs.mute.simplified-message: false
+logs.mute.webhook: https://discord.com/api/webhooks/MUTE
+logs.death: MemorySection[path='logs.death', root='YamlConfiguration']
+logs.death.enabled: false
+logs.death.simplified-message: false
+logs.death.webhook: https://discord.com/api/webhooks/DEATH
+report-enabled: false
+simplified-message: false
+report-webhook: https://discord.com/api/webhooks/REPORT
+
+═════════════ ENVIRONMENT-VARIABLEN ═══════════════════
+USERDOMAIN_ROAMINGPROFILE = EMINIS-PC
+PROCESSOR_LEVEL = 25
+SESSIONNAME = Console
+ALLUSERSPROFILE = C:\ProgramData
+PROCESSOR_ARCHITECTURE = AMD64
+PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+SystemDrive = C:
+USERNAME = emin
+ProgramFiles(x86) = C:\Program Files (x86)
+FPS_BROWSER_USER_PROFILE_STRING = Default
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+DriverData = C:\Windows\System32\Drivers\DriverData
+OneDriveConsumer = C:\Users\emin\OneDrive
+ProgramData = C:\ProgramData
+ProgramW6432 = C:\Program Files
+HOMEPATH = \Users\emin
+PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD
+POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Pro
+ProgramFiles = C:\Program Files
+PUBLIC = C:\Users\Public
+windir = C:\WINDOWS
+=:: = ::\
+EFC_8592_3789132940 = 1
+LOCALAPPDATA = C:\Users\emin\AppData\Local
+ChocolateyLastPathUpdate = 133900614074280612
+USERDOMAIN = EMINIS-PC
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+LOGONSERVER = \\EMINIS-PC
+WIX = C:\Program Files (x86)\WiX Toolset v3.14\
+EFC_8592_1592913036 = 1
+OneDrive = C:\Users\emin\OneDrive
+APPDATA = C:\Users\emin\AppData\Roaming
+VBOX_HWVIRTEX_IGNORE_SVM_IN_USE = 1
+ChocolateyInstall = C:\ProgramData\chocolatey
+CommonProgramFiles = C:\Program Files\Common Files
+Path = C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\PowerShell\7\;C:\Users\emin\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\emin\AppData\Local\Programs\Python\Python311\;C:\Users\emin\AppData\Local\Microsoft\WindowsApps;C:\Users\emin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\emin\AppData\Roaming\npm;C:\Users\emin\.dotnet\tools;C:\Users\emin\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\emin\AppData\Local\Muse Hub\lib;C:\Users\emin\AppData\Local\spicetify;C:\Users\emin\AppData\Local\GitHubDesktop\bin
+EFC_8592_2283032206 = 1
+EFC_8592_2775293581 = 1
+OS = Windows_NT
+COMPUTERNAME = EMINIS-PC
+PROCESSOR_REVISION = 6102
+CommonProgramW6432 = C:\Program Files\Common Files
+ComSpec = C:\WINDOWS\system32\cmd.exe
+SystemRoot = C:\WINDOWS
+TEMP = C:\Users\emin\AppData\Local\Temp
+HOMEDRIVE = C:
+USERPROFILE = C:\Users\emin
+TMP = C:\Users\emin\AppData\Local\Temp
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+NUMBER_OF_PROCESSORS = 12
+EFC_8592_1262719628 = 1
+
+═══════════════════════════════════════════════════════
+    Datei automatisch generiert von Logium Debug Tool
+    Falls du Hilfe brauchst → melde dich beu dem Support
+═══════════════════════════════════════════════════════

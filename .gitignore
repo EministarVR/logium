@@ -1,0 +1,24 @@
+# Build-Ordner ignorieren
+target/
+
+# Server-Ordner ignorieren
+server/
+
+# IntelliJ IDEA / VSCode / Eclipse (falls du IDEs benutzt)
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# Betriebssystem-Dateien
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Sonstiger Müll
+*.tmp
+*.bak

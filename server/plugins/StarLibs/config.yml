@@ -1,0 +1,30 @@
+# ███████╗████████╗ █████╗ ██████╗ ██╗     ██╗██████╗ ███████╗
+# ██╔════╝╚══██╔══╝██╔══██╗██╔══██╗██║     ██║██╔══██╗██╔════╝
+# ███████╗   ██║   ███████║██████╔╝██║     ██║██████╔╝███████╗
+# ╚════██║   ██║   ██╔══██║██╔══██╗██║     ██║██╔══██╗╚════██║
+# ███████║   ██║   ██║  ██║██║  ██║███████╗██║██████╔╝███████║
+# ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝╚═════╝ ╚══════╝   v1.0
+
+# StarLibs Configuration - Read carefully! ⭐
+#
+# --------------------------------------------------------
+# 🌟 ENGLISH:
+# StarLibs is a required library for:
+# - Plugin license verification (only trusted plugins by dev.eministar)
+# - Automatic error reporting (to keep servers safe and clean)
+# - Providing critical backend updates for associated plugins
+#
+# It is highly recommended NOT to remove or modify StarLibs,
+# otherwise some plugins may stop working or behave unpredictably.
+#
+# --------------------------------------------------------
+# 🌟 DEUTSCH:
+# StarLibs ist eine notwendige Bibliothek für:
+# - Plugin-Lizenzprüfung (nur vertrauenswürdige Plugins von dev.eministar)
+# - Automatische Fehlerbehebung und Fehlerberichte
+# - Kritische Backend-Updates für verbundene Plugins
+#
+# Es wird dringend empfohlen, StarLibs NICHT zu entfernen oder zu verändern,
+# da sonst Plugins nicht mehr korrekt funktionieren oder Fehler auftreten können.
+#
+# --------------------------------------------------------
