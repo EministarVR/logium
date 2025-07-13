@@ -3,11 +3,13 @@ package dev.eministar.logium;
 import dev.eministar.logium.commands.LogiumCommand;
 import dev.eministar.logium.commands.LogiumCommandTabCompleter;
 import dev.eministar.logium.commands.LogiumDebugCommand;
+import dev.eministar.logium.commands.ReportCommand;
 import dev.eministar.logium.config.ConfigManager;
 import dev.eministar.logium.config.LanguageManager;
 import dev.eministar.logium.listener.*;
 import dev.eministar.logium.log.ErrorLogger;
 import dev.eministar.logium.update.UpdateChecker;
+import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Logium extends JavaPlugin {
@@ -15,11 +17,12 @@ public class Logium extends JavaPlugin {
     private static Logium instance;
     private ConfigManager configManager;
     private LanguageManager languageManager;
-
+    private FileConfiguration config;
     @Override
     public void onEnable() {
         instance = this;
         saveDefaultConfig();
+        config = getConfig();
         configManager = new ConfigManager(this);
         languageManager = new LanguageManager(this);
 
@@ -33,6 +36,11 @@ public class Logium extends JavaPlugin {
         getCommand("logium").setExecutor(new LogiumCommand());
         getCommand("logium").setTabCompleter(new LogiumCommandTabCompleter());
         getCommand("logiumdebug").setExecutor(new LogiumDebugCommand());
+
+
+        getCommand("report").setExecutor(new ReportCommand(config, languageManager));
+        getCommand("report").setTabCompleter(new ReportCommand(config, languageManager));
+
 
         if (configManager.isEnabled("chat")) getServer().getPluginManager().registerEvents(new ChatListener(), this);
         if (configManager.isEnabled("join-leave")) getServer().getPluginManager().registerEvents(new JoinLeaveListener(), this);

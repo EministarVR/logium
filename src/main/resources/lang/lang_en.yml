@@ -50,3 +50,14 @@ leave:
 teleport:
   title: "Player teleported"
   content: "Teleported to `%world%` at **(%x%, %y%, %z%)**"
+
+report:
+  sent: "&aYour report has been submitted."
+  broadcast: "&6%reporter% &7has reported &c%target%&7: &e%reason%"
+  discord:
+    title: "📢 New Report"
+    embed: |
+      👤 Reported Player: %target% (%target_uuid%)
+      🕵️ Reported By: %reporter% (%reporter_uuid%)
+      📄 Reason: %reason%
+      🕒 Time: %time%

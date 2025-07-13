@@ -6,7 +6,7 @@
 
   <groupId>dev.eministar</groupId>
   <artifactId>Logium</artifactId>
-  <version>1.5.7</version>
+  <version>1.0</version>
   <packaging>jar</packaging>
 
   <name>Logium</name>

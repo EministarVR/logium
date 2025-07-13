@@ -20,6 +20,11 @@ public class LogiumDebugCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+        if (!sender.hasPermission("logium.debug")) {
+            sender.sendMessage("§cDu hast keine Berechtigung, diesen Befehl auszuführen. (§elogium.debug§c)");
+            return true;
+        }
+
         try {
             File file = new File(Logium.getInstance().getDataFolder(), "info.logium");
             FileWriter writer = new FileWriter(file);
@@ -100,7 +105,7 @@ public class LogiumDebugCommand implements CommandExecutor {
 
             writer.write("═══════════════════════════════════════════════════════\n");
             writer.write("    Datei automatisch generiert von Logium Debug Tool\n");
-            writer.write("    Falls du Hilfe brauchst → melde dich beu dem Support\n");
+            writer.write("    Falls du Hilfe brauchst → melde dich beim Support\n");
             writer.write("═══════════════════════════════════════════════════════\n");
 
             writer.close();
@@ -111,4 +116,5 @@ public class LogiumDebugCommand implements CommandExecutor {
         }
         return true;
     }
+
 }

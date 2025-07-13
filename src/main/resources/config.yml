@@ -5,7 +5,7 @@
 #     ██║     ██║   ██║██║  ███╗██║██║   ██║██╔████╔██║                                  #
 #     ██║     ██║   ██║██║   ██║██║██║   ██║██║╚██╔╝██║                                  #
 #     ███████╗╚██████╔╝╚██████╔╝██║╚██████╔╝██║ ╚═╝ ██║                                  #
-#     ╚══════╝ ╚═════╝  ╚═════╝ ╚═╝╚═════╝ ╚═╝     ╚═╝   v1.5.7                          #
+#     ╚══════╝ ╚═════╝  ╚═════╝ ╚═╝╚═════╝ ╚═╝     ╚═╝   v1.0                            #
 #                                                                                        #
 #                    💡 Plugin by EministarVR — Logium Logging Plugin                    #
 #                                                                                        #
@@ -82,9 +82,10 @@ logs:
 # Diese Reports werden an den angegebenen Webhook gesendet.
 # These reports are sent to the specified webhook.
 
-report-enabled: true
-simplified-message: false
-report-webhook: "https://discord.com/api/webhooks/REPORT"
+  report:
+    enabled: true
+    webhook-url: "https://..."
+
 
 # ℹ️ Hinweise:
 # ℹ️ Notes:
@@ -108,4 +109,4 @@ report-webhook: "https://discord.com/api/webhooks/REPORT"
 #    (sendet Report an Discord)
 #    (sends report to Discord)
 #
-# Support & Updates: https://discord.gg/8XX9wjzJbb
+

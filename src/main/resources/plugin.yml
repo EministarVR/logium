@@ -13,3 +13,7 @@ commands:
   logiumdebug:
     description: Erstellt eine Debug-Logdatei für Logium
     usage: /logiumdebug
+  report:
+    description: Melde einen Spieler
+    usage: /report <Spieler> <Grund>
+    permission: logium.report.use
